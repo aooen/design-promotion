@@ -3,19 +3,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <div id="banner-area">
 	<div id="banner-container">
-		<div id="banner-1" class="banner">
+		<div id="banner-1" class="banner-element">
 			<div class="container">
 				<h3>가나다</h3>
 				가나다가나다
 			</div>
 		</div>
-		<div id="banner-2" class="banner">
+		<div id="banner-2" class="banner-element">
 			<div class="container">
 				<h3>가나다</h3>
 				가나다가나다
 			</div>
 		</div>
-		<div id="banner-3" class="banner">
+		<div id="banner-3" class="banner-element">
 			<div class="container">
 				<h3>가나다</h3>
 				가나다가나다
