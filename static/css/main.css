@@ -14,14 +14,14 @@ header nav li { float: left; margin: 0 15px; padding: 5px 10px; /*border-bottom:
 #banner-container { position: relative; width: 100%; }
 .banner-element { display: none; position: absolute; float: left; width: 100%; height: 480px; box-shadow: inset 1000px 0 1000px 0 #0006, inset -1000px 0 1000px 0 #0006; opacity: 0; }
 #banner-1 { display: block; background-image: url(/static/img/IMG_20181103_192719.jpg); background-size: cover; opacity: 1; }
-#banner-1 .container { background-image: url(/static/img/IMG_20181103_192719.jpg); background-size: cover; }
+#banner-1 .container { height: 100%; background-image: url(/static/img/IMG_20181103_192719.jpg); background-size: cover; }
 #banner-2 { background: orange; background-size: cover; }
 #banner-3 { background: gray; background-size: cover; }
-.banner-controller { font-size: 32px; }
+.banner-controller { color: #fff; font-size: 32px; }
 .banner-left { position: absolute; top: 50%; left: 50px; transform: translateY(-50%); }
 .banner-right { position: absolute; top: 50%; right: 50px; transform: translateY(-50%); }
 .banner-order { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); }
-.banner-order-bullet { display: inline-block; width: 12px; height: 12px; margin: 0 4px; background: rgba(0, 0, 0, 0.75); border-radius: 100%; }
+.banner-order-bullet { display: inline-block; width: 12px; height: 12px; margin: 0 4px; background: rgba(255, 255, 255, 0.9); border-radius: 100%; }
 
 footer { padding: 20px 0; border-top: 1px solid #ccc; background: #eee; color: #666; font-size: 0.9rem; }
 

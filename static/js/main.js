@@ -3,7 +3,7 @@ var Banner = new function () {
 	this.$element = $(".banner-element");
 	this.max = this.$element.length;
 	this.set = function (i) {
-		this.$element.eq(this.order).animate({display: 'block', opacity: 0}, 500);
+		this.$element.eq(this.order).animate({display: 'none', opacity: 0}, 500);
 		this.$element.eq(i).animate({display: 'block', opacity: 1}, 500);
 		this.order = i;
 	};
