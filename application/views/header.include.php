@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 <header>
 	<div class="container">
-		<h1><a href="<?=base_url('intro')?>">Wrapping Remover</a></h1>
+		<h1><a href="<?=base_url()?>">Wrapping Remover</a></h1>
 		<nav>
 			<ul>
 				<li><a href="<?=base_url('intro')?>">상품 소개</a></li>
