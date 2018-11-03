@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<ul>
 				<li><a href="<?=base_url('intro')?>">상품 소개</a></li>
 				<li><a href="<?=base_url('spec')?>">특·장점</a></li>
-				<li><a href="<?=base_url('purchase')?>">바로구매</a></li>
+				<li><a href="<?=base_url('purchase')?>">바로 구매</a></li>
 				<li><a href="<?=base_url('community')?>">커뮤니티</a></li>
 			</ul>
 		</nav>
