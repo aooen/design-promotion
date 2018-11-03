@@ -5,20 +5,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div id="banner-container">
 		<div id="banner-1" class="banner-element">
 			<div class="container">
-				<h3>가나다</h3>
-				가나다가나다
+				<div class="banner-content">
+					<h3>포장 제거의 혁신!</h3>
+					랩핑 제거기(Wrapping Remover)를 소개합니다.
+					<a href="<?=base_url('info')?>">자세한 설명 보기</a>
+				</div>
 			</div>
 		</div>
 		<div id="banner-2" class="banner-element">
 			<div class="container">
-				<h3>가나다</h3>
-				가나다가나다
+				<div class="banner-content">
+					<h3>타사 제품에 비해 <small>약</small> 2배의 만족도</h3>
+					<a href="<?=base_url('info')?>"></a>
+				</div>
 			</div>
 		</div>
 		<div id="banner-3" class="banner-element">
 			<div class="container">
-				<h3>가나다</h3>
-				가나다가나다
+				<div class="banner-content">
+					<h3>대량구매시 더욱 싸게!</h3>
+					<a href="<?=base_url('info')?>">바로 구매</a>
+				</div>
 			</div>
 		</div>
 	</div>
