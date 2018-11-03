@@ -17,6 +17,6 @@ class Purchase extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('community/main');
+		$this->load->view('purchase/main');
 	}
 }

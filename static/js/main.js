@@ -13,6 +13,7 @@ $(document).ready(function () {
 			}).bind(this), 5000);
 		};
 		this.set = function (i) {
+			if (this.order == i) return;
 			this.$element.eq(this.order).fadeOut(500);
 			this.$element.eq(i).fadeIn(500);
 			this.order = i;
