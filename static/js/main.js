@@ -9,9 +9,9 @@ $(document).ready(function () {
 			if (this.interval !== undefined) {
 				clearInterval(this.interval);
 			}
-			this.interval = setInterval(function () {
+			this.interval = setInterval((function () {
 				this.next();
-			}, 5000);
+			}).bind(this), 5000);
 		};
 		this.set = function (i) {
 			this.$element.eq(this.order).fadeOut(500);
