@@ -9,7 +9,7 @@ $(document).ready(function () {
 				clearInterval(this.interval);
 			}
 			this.interval = setInterval(function () {
-				Banner.next();
+				this.next();
 			}, 5000);
 		};
 		this.set = function (i) {
