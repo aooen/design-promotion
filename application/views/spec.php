@@ -1,6 +1,6 @@
 a<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<div class="container">
+<article>
 	<h2>특·장점</h2>
-</div>
+</article>
