@@ -3,8 +3,8 @@ var Banner = new function () {
 	this.$element = $(".banner-element");
 	this.max = this.$element.length;
 	this.set = function (i) {
-		this.$element.eq(this.order).hide().animate({opacity: 0}, 500);
-		this.$element.eq(i).show().animate({opacity: 1}, 500);
+		this.$element.eq(this.order).hide(500);
+		this.$element.eq(i).show(500);
 		this.order = i;
 	};
 	this.next = function (increment) {
