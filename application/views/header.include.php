@@ -19,10 +19,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<h1>Wrapping Remover</h1>
 		<nav>
 			<ul>
-				<li>상품 소개</li>
-				<li>특·장점</li>
-				<li>바로구매</li>
-				<li>커뮤니티</li>
+				<li><a href="<?=base_url('intro')?>">상품 소개</a></li>
+				<li><a href="<?=base_url('spec')?>">특·장점</a></li>
+				<li><a href="<?=base_url('purchase')?>">바로구매</a></li>
+				<li><a href="<?=base_url('community')?>">커뮤니티</a></li>
 			</ul>
 		</nav>
 	</div>
