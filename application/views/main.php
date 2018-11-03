@@ -16,9 +16,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			가나다가나다
 		</div>
 		<div class="banner-controller">
-			<div class="banner-left"></div>
-			<div class="banner-right"></div>
-			<div class="banner-order"></div>
+			<div class="banner-left"><ion-icon name="arrow-dropleft-circle"></ion-icon></div>
+			<div class="banner-right"><ion-icon name="arrow-dropright-circle"></ion-icon></div>
+			<div class="banner-order">
+				<div  class="banner-order-bullet"></div>
+				<div  class="banner-order-bullet"></div>
+				<div  class="banner-order-bullet"></div>
+			</div>
 		</div>
 	</div>
 </div>
