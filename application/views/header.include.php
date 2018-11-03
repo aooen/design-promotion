@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-nanum-square-round@1.0.1">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@4.4.6/dist/css/ionicons.min.css">
 	<link rel="stylesheet" href="<?=base_url('static/css/main.css')?>">
-<?php if ($mainpage) { ?>
+<?php if (isset($mainpage) && $mainpage) { ?>
 	<link rel="stylesheet" href="<?=base_url('static/css/banner.css')?>">
 <?php } ?>
 	<title>프로모션</title>
