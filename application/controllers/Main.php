@@ -8,7 +8,9 @@ class Main extends CI_Controller {
 	}
 
 	public function _remap($method) {
-		$this->load->view('header.include.php');
+		$this->load->view('header.include.php', [
+			'mainpage' => true
+		]);
 		if (method_exists($this, $method)) {
 			$this->$method();
 		}
@@ -17,8 +19,6 @@ class Main extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('main', [
-			'mainpage' => true
-		]);
+		$this->load->view('main');
 	}
 }
