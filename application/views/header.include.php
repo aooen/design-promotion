@@ -6,10 +6,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+<<<<<<< HEAD
 	<link rel="stylesheet" href="<?=$this->url->base_url("static/css/main.css")?>">
 	<title>프로모션</title>
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
 	<script src="<?=$this->url->base_url("static/js/main.js")?>"></script>
+=======
+	<link rel="stylesheet" href="<?=base_url("static/css/main.css")?>">
+	<title>프로모션</title>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+	<script src="<?=base_url("static/js/main.js")?>"></script>
+>>>>>>> 5db4b24004a05903d1577bc15efa6d73f57b9ced
 </head>
 <body>
 <header>
