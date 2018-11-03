@@ -7,6 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-nanum-gothic@0.0.63">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-nanum-square-round@1.0.1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@4.4.6/dist/css/ionicons.min.css">
 	<link rel="stylesheet" href="<?=base_url('static/css/main.css')?>">
 	<title>프로모션</title>
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>

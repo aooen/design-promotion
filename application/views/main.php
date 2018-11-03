@@ -1,28 +1,30 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<div class="container">
-	<div id="banner">
-		<div id="banner-1" class="banner-container">
+<div id="banner-area">
+	<div id="banner-container">
+		<div id="banner-1" class="banner">
 			<h3>가나다</h3>
 			가나다가나다
 		</div>
-		<div id="banner-2" class="banner-container">
+		<div id="banner-2" class="banner">
 			<h3>가나다</h3>
 			가나다가나다
 		</div>
-		<div id="banner-3" class="banner-container">
+		<div id="banner-3" class="banner">
 			<h3>가나다</h3>
 			가나다가나다
-		</div>
-		<div class="banner-controller">
-			<div class="banner-left"><ion-icon name="arrow-dropleft-circle"></ion-icon></div>
-			<div class="banner-right"><ion-icon name="arrow-dropright-circle"></ion-icon></div>
-			<div class="banner-order">
-				<div  class="banner-order-bullet"></div>
-				<div  class="banner-order-bullet"></div>
-				<div  class="banner-order-bullet"></div>
-			</div>
 		</div>
 	</div>
+	<div class="banner-controller">
+		<div class="banner-left"><i class="icon ion-ios-arrow-dropleft-circle"></i></div>
+		<div class="banner-right"><i class="icon ion-ios-arrow-dropright-circle"></i></div>
+		<div class="banner-order">
+			<div  class="banner-order-bullet"></div>
+			<div  class="banner-order-bullet"></div>
+			<div  class="banner-order-bullet"></div>
+		</div>
+	</div>
+</div>
+<div class="container">
 </div>
