@@ -3,12 +3,13 @@ $(document).ready(function () {
 		this.order = 0;
 		this.$element = $(".banner-element");
 		this.max = this.$element.length;
-		this.interval;
-		this.setInterval = function () {
-			if (this.interval !== undefined) {
-				clearInterval(this.interval);
+		this.timer;
+		this.setTimeout = function () {
+			if (this.timer !== undefined) {
+				clearTimeout(this.timer);
 			}
-			this.interval = setInterval((function () {
+			this.timer = setTimeout((function () {
+				this.timer = undefined;
 				this.next();
 			}).bind(this), 5000);
 		};
@@ -17,7 +18,7 @@ $(document).ready(function () {
 			this.$element.eq(this.order).fadeOut(500);
 			this.$element.eq(i).fadeIn(500);
 			this.order = i;
-			this.setInterval();
+			this.setTimeout();
 		};
 		this.next = function (increment) {
 			if (increment === undefined) increment = 1;
@@ -28,7 +29,7 @@ $(document).ready(function () {
 		};
 	};
 
-	Banner.setInterval();
+	Banner.setTimeout();
 
 	$('.banner-left').click(function () {
 		Banner.next(-1);

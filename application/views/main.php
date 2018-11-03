@@ -37,15 +37,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="banner-order-bullet"></div>
 	</div>
 </div>
-<div class="container">
-	<div style="width: 40%;">
-		<h3>공지사항</h3>
+<div class="container" style="padding: 10px 0;">
+	<div class="main-box" style="width: 40%;">
+		<div>
+			<h3>공지사항<small><a href="<?=base_url('community/notice')?>">더보기 ≫</a></small></h3>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
+		</div>
 	</div>
-	<div style="width: 40%;">
-		<h3>갤러리</h3>
+	<div class="main-box" style="width: 40%;">
+		<div>
+			<h3>갤러리<small><a href="<?=base_url('community/gallery')?>">더보기 ≫</a></small></h3>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
+		</div>
 	</div>
-	<div style="width: 20%;">
-		<h3>전화 문의</h3>
-		000-0000-0000
+	<div class="main-box" style="width: 20%; text-align: center;">
+		<div>
+			<h3>전화 문의</h3>
+			000-0000-0000<br>
+			<small>평일 : 10시 ~ 19시<br>
+			(점심시간 12시 ~ 13시)</small>
+		</div>
 	</div>
 </div>
