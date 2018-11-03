@@ -4,7 +4,6 @@ $(document).ready(function () {
 		this.$element = $(".banner-element");
 		this.max = this.$element.length;
 		this.interval;
-		this.next = function () {};
 		this.setInterval = function () {
 			if (this.interval !== undefined) {
 				clearInterval(this.interval);
