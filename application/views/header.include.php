@@ -5,6 +5,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+	<link rel="stylesheet" href="<?=$config['base_url']?>static/main.css">
+	<title>프로모션</title>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+	<script src="<?=$config['base_url']?>static/main.js"></script>
 </head>
 <body>
+<header>
+	<div class="container">
+		<h1>Lorem</h1>
+		<nav>
+			<ul>
+				<li>상품 소개</li>
+				<li>장단점</li>
+				<li>상품 구매</li>
+				<li>커뮤니티</li>
+			</ul>
+		</nav>
+	</div>
+</header>
